@@ -23,6 +23,7 @@ function loadHTMLContent(file, elementId) {
 loadHTMLContent('header.html', 'header-container');
 loadHTMLContent('nav.html', 'nav-container');
 loadHTMLContent('footer.html', 'footer-container');
+
 // Cargar el contenido de news-cards.html
 loadHTMLContent('news-cards.html', 'news-cards-container');
 // Cargar el contenido de cards-banner-one.html
