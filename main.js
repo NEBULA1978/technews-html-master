@@ -15,19 +15,19 @@ function loadHTMLContent(file, elementId) {
             document.getElementById(elementId).innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET", file, true);
+    xhttp.open("GET", 'partials/' + file, true); // Agrega 'partials/' a la ruta del archivo
     xhttp.send();
 }
 
-// Cargar el encabezado, la barra de navegación y el pie de página
+// Cargar el encabezado, la barra de navegación y el pie de página desde "partials"
 loadHTMLContent('header.html', 'header-container');
 loadHTMLContent('nav.html', 'nav-container');
 loadHTMLContent('footer.html', 'footer-container');
 
-// Cargar el contenido de news-cards.html
+// Cargar el contenido de news-cards.html desde "partials"
 loadHTMLContent('news-cards.html', 'news-cards-container');
-// Cargar el contenido de cards-banner-one.html
+// Cargar el contenido de cards-banner-one.html desde "partials"
 loadHTMLContent('cards-banner-one.html', 'cards-banner-one-container');
 
-// Cargar el contenido de footer.html
+// Cargar el contenido de footer.html desde "partials"
 loadHTMLContent('footer.html', 'footer-container');
