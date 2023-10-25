@@ -25,3 +25,8 @@ loadHTMLContent('nav.html', 'nav-container');
 loadHTMLContent('footer.html', 'footer-container');
 // Cargar el contenido de news-cards.html
 loadHTMLContent('news-cards.html', 'news-cards-container');
+// Cargar el contenido de cards-banner-one.html
+loadHTMLContent('cards-banner-one.html', 'cards-banner-one-container');
+
+// Cargar el contenido de footer.html
+loadHTMLContent('footer.html', 'footer-container');
